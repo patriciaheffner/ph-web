@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ClickMeComponent } from './click-me.component';
+import { KeyUpComponentOnBlur } from './on-blur-input.component';
+import { LittleTourComponent } from './little-tour.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClickMeComponent,
+    KeyUpComponentOnBlur,
+    LittleTourComponent
   ],
   imports: [
     BrowserModule,
