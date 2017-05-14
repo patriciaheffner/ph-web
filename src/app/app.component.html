@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+<!-- this is the component template -->
+
+<h1>{{title}}</h1>
+<h2>My favorite print is: {{myPrint.name}}</h2>
+<p>Prints:</p>
+<ul>
+  <li *ngFor="let print of prints">
+  	{{ print.name }}
+  </li>
+</ul>
+
+<p *ngIf="prints.length > 3">There are many prints! </p>
