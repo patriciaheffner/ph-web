@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { ClickMeComponent } from './click-me.component';
 import { KeyUpComponentOnBlur } from './on-blur-input.component';
 import { LittleTourComponent } from './little-tour.component';
+import { ArtistFormComponent } from './artist-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClickMeComponent,
     KeyUpComponentOnBlur,
+    ArtistFormComponent,
     LittleTourComponent
   ],
   imports: [
